@@ -34,7 +34,7 @@ button {
 
 </style>
 
-        <link rel="stylesheet" href="https://github.com/class-google-com/runnerx/blob/main/style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/class-google-com/runnerx@main/style.css">
     <script src="https://cdn.jsdelivr.net/gh/class-google-com/runnerx@main/UnityProgress.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/class-google-com/runnerx@main/unityloader53.js"></script>
 
