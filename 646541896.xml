@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Module>
-<ModulePrefs title="ElectronDash" />
+<ModulePrefs title="Runner" />
 <Content type="html"><![CDATA[
 <style>
 button {
@@ -34,9 +34,9 @@ button {
 
 </style>
 
-        <link rel="stylesheet" href="https://classroom-googl.s3.amazonaws.com/surf/style.css">
-    <script src="https://classroom-googl.s3.amazonaws.com/surf/UnityProgress.js"></script>
-    <script src="https://classroom-googl.s3.amazonaws.com/surf/unityloader53.js"></script>
+        <link rel="stylesheet" href="https://github.com/class-google-com/runnerx/blob/main/style.css">
+    <script src="https://cdn.jsdelivr.net/gh/class-google-com/runnerx@main/UnityProgress.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/class-google-com/runnerx@main/unityloader53.js"></script>
 
     <script type="text/javascript">
 
@@ -57,7 +57,7 @@ button {
 
         bttn.onclick = function () {
 
-          gameInstance = UnityLoader.instantiate("gameContainer", "https://classroom-googl.s3.amazonaws.com/surf/surfers.json", {onProgress: UnityProgress,Module:{onRuntimeInitialized: function() {UnityProgress(gameInstance, "complete")}}});
+          gameInstance = UnityLoader.instantiate("gameContainer", "https://cdn.jsdelivr.net/gh/class-google-com/runnerx@main/surfers.json", {onProgress: UnityProgress,Module:{onRuntimeInitialized: function() {UnityProgress(gameInstance, "complete")}}});
           this.remove();
         }
       }
